@@ -1,0 +1,95 @@
+
+[
+   
+    {
+        "id": 1,
+        "nombre": "Fernet Branca 1.5Lts",
+        "img": "./assets/img/fernet.jpg",
+        "precio": 1500,
+        "cantidad":1
+    },
+    {
+        "id": 2,
+        "nombre": "Jagermaister 1lts",
+        "img": "./assets/img/jager.png",
+        "precio": 7000,
+        "cantidad":1
+    },
+    {
+        "id": 3,
+        "nombre": "Beefeater 700cc",
+        "img": "./assets/img/beefeater.png",
+        "precio": 2000,
+        "cantidad":1
+    },
+    {
+        "id": 4,
+        "nombre": "Beefeater Pink 700cc",
+        "img": "./assets/img/beefeaterPink.png",
+        "precio": 2500,
+        "cantidad":1
+    },
+    {
+        "id": 5,
+        "nombre": "Tanqueray 750cc",
+        "img": "./assets/img/tanqueray.png",
+        "precio": 3000,
+        "cantidad":1
+    },
+    {
+        "id": 6,
+        "nombre": "Tanqueray sevilla 750cc",
+        "img": "./assets/img/tanqueraySevilla.png",
+        "precio": 4000,
+        "cantidad":1
+    },
+    {
+        "id": 7,
+        "nombre": "Bombay 750cc",
+        "img": "./assets/img/bombay.png",
+        "precio": 8000,
+        "cantidad":1
+    },
+    {
+        "id": 8,
+        "nombre": "Bombay Bramble 750cc",
+        "img": "./assets/img/bombayBramble.png",
+        "precio": 9000,
+        "cantidad":1
+    },
+    {
+        "id": 9,
+        "nombre": "Absolut 750cc",
+        "img": "./assets/img/absolut.png",
+        "precio": 3500,
+        "cantidad":1
+    },
+    {
+        "id": 10,
+        "nombre": "Absolut Lime 700cc",
+        "img": "./assets/img/absolutLime.png",
+        "precio": 4000,
+        "cantidad":1
+    },
+    {
+        "id": 11,
+        "nombre": "Absolut Grapefruit 750cc",
+        "img": "./assets/img/absolutGrapefruit.png",
+        "precio": 3800,
+        "cantidad":1
+    },
+    {
+        "id": 12,
+        "nombre": "Absolut Elyx 750cc",
+        "img": "./assets/img/absolutElyx.png",
+        "precio": 5000,
+        "cantidad":1
+    },
+    {
+        "id": 13,
+        "nombre": "Absolut Apeach 750cc",
+        "img": "./assets/img/absolutApeach.png",
+        "precio": 4000,
+        "cantidad":1
+    }
+]

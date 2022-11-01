@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tienda de bebidas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body class="bodyIndex">
+
+    <nav class="navbar navbar-expand-lg ">
+
+        <div class="container">
+          <div class="carrito-c animated">
+              
+            <span style="font-size:30px;cursor:pointer" id="openCar">
+              <img src="assets/img/carritoDeCompras.png" class="nav-link dropdown-toggle img-fluid" height="30px"
+              width="30px" data-bs-toggle="modal" data-bs-target="#exampleModal"></img>
+            </span>
+
+          </div>  
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarScroll">
+           
+            <ul class="navbar-nav m-auto my-2 my-lg-0 " >
+              <li class="nav-item">
+                <a class="nav-link"  href="#sectionHome">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sectionTienda">Tienda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#sectionRegistro">Registro</a>
+              </li>
+            </ul>
+            
+            <form class="d-flex" role="login">
+                <label for="inputUsuario" class="visually-hidden">Usuario</label>
+                <input type="text" class="form-control1" id="inputUsuario" placeholder="Usuario">
+                <label for="inputPassword" class="visually-hidden">Password</label>
+                <input type="password" class="form-control1" id="inputContrasenia" placeholder="Contraseña">
+                <button type="submit" class="btn0" id="btn0">Ingresar</button>
+            </form>
+            
+           
+          </div>
+        </div>
+      </nav>
+
+  <main>
+
+    <section id="sectionHome">
+      <h2 class="text-center">Tienda de bebidas</h2>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="assets/bartender.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>excelentes combos</h5>
+        <p>para todo tipo de servicio</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="assets/bartender (1).jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tu barra propia?</h5>
+        <p>Consegui el mejor precio!</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/image001jpg.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tenes un bar?</h5>
+        <p>Consulta con un representante y te lo entregamos en puerta y pagas a contrafactura!</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </section>
+
+    <section class="container mt-5" id="sectionTienda">
+      <div class="divTienda">
+        <h1 class="text-center">Tienda de bebidas</h1>
+        <div id="divProductos">
+        </div>
+        <div class="items">
+           <div class="row">
+  
+           </div>
+      </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row text-center" id="tienda">
+
+      </div>
+    </div>
+    </section>
+
+
+    <section class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Carrito de compra</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+           
+          </div>
+          <div class="modal-body">
+              
+              <div class="row text-center" id="carrito">
+                
+              </div>
+              
+          </div>
+          <div class="modal-footer">
+              <div id="total"></div>
+              <button type="submit" class="submitModal">Comprar</button>
+        </div>
+      </div>
+  </section>
+
+  <section id="sectionRegistro">
+  <div class="divForm">
+      <h2 class="text-center m-5">Ingreso de Usuario</h2>
+
+    <form class="container" style="width: 50%" id="formulario">
+        <div class="mb-3">
+          <label for="InputNombreUsuario" class="form-label">Nombre de usuario</label>
+          <input type="text" class="form-control" id="nombreUsuario" aria-describedby="emailHelp">
+        
+        </div>
+        <div class="mb-3">
+            <label for="InputNombre1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
+            
+        </div>
+        <div class="mb-3">
+            <label for="InputApellido1" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" aria-describedby="emailHelp">
+            
+        </div>
+        <div class="mb-3">
+            <label for="InputContraseniaForm" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="contraseniaForm" aria-describedby="emailHelp">
+            
+        </div>
+        
+        <div class="mb-3">
+          <label for="exampleContraseniaForm2" class="form-label">Repetir contraseña</label>
+          <input type="password" class="form-control" id="contraseniaForm2" aria-describedby="emailHelp">
+
+        </div>
+        <div class="mb-3">
+            <label for="InputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            
+        </div>
+        
+        
+        <button type="submit" class="btn btn-primary" id="btnSubmit">Submit</button>
+    
+      </form>
+    </div>
+    </section>
+  
+  </main>
+  <footer class="footer" >
+
+    <nav class="navbarStickyBottom">
+<!--       <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fixed bottom</a>
+      </div> -->
+        <img class="imgFooter" src="./assets/facebook.png" alt="facebook">
+        <img class="imgFooter" src="./assets/instagram.png" alt="instagram">
+        <img class="imgFooter" src="./assets/telegrama.png" alt="telegram">
+        <img class="imgFooter" src="./assets/gmail.png" alt="gmail">
+      </nav>
+  </footer >
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="../js/tienda.js" type="module"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/apps.js" type="module"></script>
+</body>
+</html>

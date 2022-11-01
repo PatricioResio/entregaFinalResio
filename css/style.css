@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,900;1,500&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.navbarStickyBottom{
+    height: 6em;
+    width: auto;
+    background: rgba(52,91,99,1);
+    justify-content: space-around;
+}
+.imgFooter{
+    margin-top: 2em;
+    margin-left: 13em;
+    height: 3em;
+    width: 3em;
+    background: rgba(52,91,99,1);
+}
+.bodyIndex {
+    background: rgb(7,26,75);
+    background: linear-gradient(156deg, rgba(7,26,75,1) 0%, rgba(4,71,84,1) 67%, rgba(52,91,99,1) 100%);    
+}
+.navbar-brand{
+    color: #a0bec3;
+}
+.navbar-brand:hover{
+    color: #a0bec3;
+}
+
+.text-center {
+     margin-bottom: 2em;
+    margin-top: 2em;
+    color:#a0bec3;
+}
+.nav-link{
+    margin-right: 8px;
+    margin-left: 8px;
+    color: rgb(87, 87, 87);
+    text-transform: uppercase;
+    text-decoration: noce;
+    
+    
+} 
+.nav-link:hover{
+    color:white;
+
+}
+.form-control1 {
+    height:30px;
+    width: 40%;
+    border-radius: 20px;
+    border: 2px solid rgba(5,113,135,1);
+    margin-left: 1px;
+    margin-right:1px;
+}
+.btn0 {
+    height: 30px;
+    width: 6em;
+    outline: none;
+    border: none;
+    background: rgba(5,113,135,1);
+    color: #a0bec3;
+    border-radius: 80px;
+    font-weight: 600;
+    margin-left: 1px;
+    margin-right:1px;
+    
+}
+.modal-title {
+    color:#a0bec3;
+}
+.modal-content {
+    background: rgb(7,26,75);
+    background: linear-gradient(156deg, rgba(7,26,75,1) 0%, rgba(4,71,84,1) 67%, rgba(52,91,99,1) 100%);    
+}
+.divForm {
+    border: 4px solid rgba(5,113,135,1);
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 15em;
+    margin-top: 15em;
+    justify-content: center;
+}
+.divTienda {
+    margin-bottom: 8em;
+    margin-top: 8em;
+    border: 4px solid rgba(5,113,135,1);
+}
+.submitModal {
+    height: 30px;
+    width: 6em;
+    outline: none;
+    border: none;
+    background: rgba(5,113,135,1);
+    color: #a0bec3;
+    border-radius: 80px;
+    font-weight: 600;
+    margin-left: 1px;
+    margin-right:1px;
+    
+}
