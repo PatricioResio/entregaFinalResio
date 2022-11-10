@@ -1,9 +1,9 @@
-
+import { productosGeneral } from "../js/tienda.js";
 const carrito = [];
 
 function agregarProductosAlCarrito(id){
     
-    let producto = productos.find(producto => producto.id === id);
+    let producto = productosGeneral.find(producto => producto.id === id);
 
     let productoEnCarrito = carrito.find(producto => producto.id === id);
 

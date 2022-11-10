@@ -13,7 +13,7 @@ const fetchProductos = async () => {
     )
     )
 };
-fetchProductos();
+fetchProductos(productosGeneral);
 const renderizarProductos = () => {
     const tienda = document.getElementById('tienda');
     tienda.innerHTML = '';

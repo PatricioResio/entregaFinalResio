@@ -6,14 +6,23 @@
     margin: 0%;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;  
+    
 }
-
+.footer{
+    height: 20em;
+}
 .navbarStickyBottom{
     height: 6em;
     width: auto;
-    background: rgba(52,91,99,1);
+    background: none;
     justify-content: space-around;
 }
+
+.formIngreso{
+    height: 2px;
+    width: 25em;
+}
+
 .imgFooter{
     margin-top: 2em;
     margin-left: 13em;
@@ -52,11 +61,11 @@
 }
 .form-control1 {
     height:30px;
-    width: 40%;
+    width: 33%;
     border-radius: 20px;
     border: 2px solid rgba(5,113,135,1);
-    margin-left: 1px;
-    margin-right:1px;
+    margin: 3px;
+    justify-content: center;
 }
 .btn0 {
     height: 30px;

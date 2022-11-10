@@ -1,26 +1,27 @@
-let listaUsuarios = []
-let usuario = document.getElementById("inputUsuario");
-let contrasenia = document.getElementById("inputContrasenia");
-const botonIngreso = document.getElementById("btn0");
-const botonSubmit = document.getElementById("btnSubmit");
-let validacionDatos = false;
-let idUsuario = 0;
+let listaUsuarios = [
+    {
+        nombreUsuario : "Javier32",
+        nombre : "javi",
+        apellido : "Jav",
+        contraseniaUsuario : 1234,
+        contraseniaUsuario2 : 1234,
+        email : "jav@gmail.com",
+        idUsuario : 0
+    },
+    {
+        nombreUsuario : "usu123",
+        nombre : "Usuario",
+        apellido : "User",
+        contraseniaUsuario : "usuario",
+        contraseniaUsuario2 : "usuario",
+        email:"usuario@gmail.com",
+        idUsuario : 1
+    }
+];
 
-const fetchUsuarios = async () => {
-    await fetch("../JSON/usuarios.json")
-    .then((Response) => Response.json())
-    .then((data)=>{ listaUsuarios.push(data);      
-    })
-    .catch((error) =>
-    swal.fire (
-        'error al cargar los productos',
-        '',
-        'error'
-    )
-    )
-};
-fetchUsuarios(listaUsuarios);
-console.log(listaUsuarios)
+const botonSubmit = document.getElementById("btnSubmit");
+
+let idUsuario = 0;
 
 const form = document.getElementById('formulario');
 form.addEventListener('submit', (e) => {
@@ -54,20 +55,5 @@ guardarUsuario(datos)
 });
 
 
-botonIngreso.onclick = (usuario, contrasenia) =>{
-  validarUsuario(usuario, contrasenia);
-};
-const validarUsuario = () => {
-    if(listaUsuarios.nombreUsuario.includes(usuario) && (listaUsuarios.contraseniaUsuario.includes(contrasenia))){
-        swal.fire (
-            'bienvenido',
-            '',
-            'succes'
-        )
-}else{
-        swal.fire (
-            'error',
-            'usuario u contraseña incorrecta',
-            'intentelo de nuevo'
-        )
-}}
+
+export {listaUsuarios}
